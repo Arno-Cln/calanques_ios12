@@ -56,15 +56,39 @@
 		43E98CFF2215503900744626 /* Les Calanques */ = {
 			isa = PBXGroup;
 			children = (
+				43E98D14221559CE00744626 /* Modeles */,
+				43E98D15221559F200744626 /* Vue */,
+				43E98D16221559FD00744626 /* Controller */,
 				43E98D002215503900744626 /* AppDelegate.swift */,
-				43E98D022215503900744626 /* FirstViewController.swift */,
-				43E98D042215503900744626 /* SecondViewController.swift */,
 				43E98D062215503900744626 /* Main.storyboard */,
 				43E98D092215503B00744626 /* Assets.xcassets */,
 				43E98D0B2215503B00744626 /* LaunchScreen.storyboard */,
 				43E98D0E2215503B00744626 /* Info.plist */,
 			);
 			path = "Les Calanques";
+			sourceTree = "<group>";
+		};
+		43E98D14221559CE00744626 /* Modeles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modeles;
+			sourceTree = "<group>";
+		};
+		43E98D15221559F200744626 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		43E98D16221559FD00744626 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43E98D022215503900744626 /* FirstViewController.swift */,
+				43E98D042215503900744626 /* SecondViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
