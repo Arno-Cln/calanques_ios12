@@ -19,6 +19,7 @@
 		43E98D1C22155F9100744626 /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E98D1B22155F9100744626 /* ControllerAvecTableView.swift */; };
 		43E98D1E22155FC100744626 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E98D1D22155FC100744626 /* ControllerAvecCarte.swift */; };
 		43E98D2022155FF600744626 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E98D1F22155FF600744626 /* TableViewIntegreeController.swift */; };
+		43EF6C37221B3C920058E738 /* Bouton Arrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EF6C36221B3C920058E738 /* Bouton Arrondi.swift */; };
 		43F5124D221877BF0038E026 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5124C221877BE0038E026 /* CalanqueCellAlternative.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		43E98D1B22155F9100744626 /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
 		43E98D1D22155FC100744626 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
 		43E98D1F22155FF600744626 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
+		43EF6C36221B3C920058E738 /* Bouton Arrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bouton Arrondi.swift"; sourceTree = "<group>"; };
 		43F5124C221877BE0038E026 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 				43C772542216ABBD008D3FD5 /* CalanqueCell.swift */,
 				43C772562216B4AC008D3FD5 /* ImageRonde.swift */,
 				43F5124C221877BE0038E026 /* CalanqueCellAlternative.swift */,
+				43EF6C36221B3C920058E738 /* Bouton Arrondi.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				43C772552216ABBD008D3FD5 /* CalanqueCell.swift in Sources */,
 				43E98D1A22155E0000744626 /* CalanqueCollection.swift in Sources */,
 				43E98D1E22155FC100744626 /* ControllerAvecCarte.swift in Sources */,
+				43EF6C37221B3C920058E738 /* Bouton Arrondi.swift in Sources */,
 				43F5124D221877BF0038E026 /* CalanqueCellAlternative.swift in Sources */,
 				43E98D1C22155F9100744626 /* ControllerAvecTableView.swift in Sources */,
 				43C772572216B4AC008D3FD5 /* ImageRonde.swift in Sources */,
