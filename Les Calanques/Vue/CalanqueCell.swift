@@ -25,7 +25,7 @@ class CalanqueCell: UITableViewCell {
 
     }
     
-    func setupCell(_ calanque: Calanque) {
+    func setupCell(_ calanque: Calanque) { // Paramétrage des cellules par fonction.
         self.calanque = calanque
         containerView.layer.cornerRadius = 20
         containerView.backgroundColor = UIColor.lightGray
