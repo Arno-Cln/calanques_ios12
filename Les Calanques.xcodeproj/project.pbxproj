@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43749CB3221C681B0007E09A /* MonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43749CB2221C681B0007E09A /* MonAnnotation.swift */; };
 		43C772552216ABBD008D3FD5 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C772542216ABBD008D3FD5 /* CalanqueCell.swift */; };
 		43C772572216B4AC008D3FD5 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C772562216B4AC008D3FD5 /* ImageRonde.swift */; };
 		43E6B579221B13FE00EFD2AA /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E6B578221B13FE00EFD2AA /* DetailController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43749CB2221C681B0007E09A /* MonAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonAnnotation.swift; sourceTree = "<group>"; };
 		43C772542216ABBD008D3FD5 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		43C772562216B4AC008D3FD5 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		43E6B578221B13FE00EFD2AA /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				43E98D1722155B7000744626 /* Calanques.swift */,
 				43E98D1922155E0000744626 /* CalanqueCollection.swift */,
+				43749CB2221C681B0007E09A /* MonAnnotation.swift */,
 			);
 			path = Modeles;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				43E98D2022155FF600744626 /* TableViewIntegreeController.swift in Sources */,
 				43E98D012215503900744626 /* AppDelegate.swift in Sources */,
 				43C772552216ABBD008D3FD5 /* CalanqueCell.swift in Sources */,
+				43749CB3221C681B0007E09A /* MonAnnotation.swift in Sources */,
 				43E98D1A22155E0000744626 /* CalanqueCollection.swift in Sources */,
 				43E98D1E22155FC100744626 /* ControllerAvecCarte.swift in Sources */,
 				43EF6C37221B3C920058E738 /* Bouton Arrondi.swift in Sources */,
