@@ -9,9 +9,12 @@
 import UIKit
 import MapKit
 
-class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
+class ControllerAvecCarte: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
     @IBOutlet weak var mapView: MKMapView!
+    
+    var locationmaManager = CLLocationManager()
+    var userPosition: CLLocation?
     
     var calanques: [Calanque] = CalanqueCollection().all()
     
@@ -19,11 +22,23 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         mapView.delegate = self
+        mapView.showsUserLocation = true
+        locationmaManager.delegate = self
+        locationmaManager.requestAlwaysAuthorization()
+        locationmaManager.startUpdatingLocation()
         addAnnotation()
         NotificationCenter.default.addObserver(self, selector: #selector(notifDetail), name: Notification.Name("detail"), object: nil)
         if calanques.count > 5 {
             let premiere = calanques[5].coordonnée
             setupMap(coordonnees: premiere)
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if locations.count > 0 {
+            if let maPosition = locations.last {
+                userPosition = maPosition
+            }
         }
     }
     
@@ -110,6 +125,9 @@ class ControllerAvecCarte: UIViewController, MKMapViewDelegate {
     }
     
     @IBAction func getPosition(_ sender: Any) {
+        if userPosition != nil {
+            setupMap(coordonnees: userPosition!.coordinate)
+        }
     }
     
 
